@@ -12,7 +12,6 @@
             <td>${appointment.appointmentDate}</td>
             <td>${appointment.appointmentTime}</td>
             <td>${appointment.status}</td>
-            <td>${appointment.Email}</td>
             <td>
                 <button onclick="approveAppointment(${index})">Approve</button>
                 <button onclick="deleteAppointment(${index})">Delete</button>

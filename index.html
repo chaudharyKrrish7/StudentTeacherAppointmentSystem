@@ -28,6 +28,7 @@
     
     <!-- Import Firebase as modules -->
     <script type="module">
+        let a = document.getElementById('login-email')
         // Import the Firebase SDK
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js";
@@ -114,6 +115,7 @@
         registerForm.classList.add("active");
     });
 });
+
 
     </script>
 </body>
